@@ -2,8 +2,6 @@ streamlit
 opencv-python-headless
 numpy
 deepface
+tensorflow-cpu
+tf-keras
 pillow
-tensorflow
-keras
-mtcnn
-retina-face
