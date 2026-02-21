@@ -1,6 +1,0 @@
-streamlit
-numpy
-deepface
-tensorflow-cpu
-tf-keras
-pillow
