@@ -5,6 +5,8 @@ import av
 import numpy as np
 from deepface import DeepFace
 import logging
+import os
+os.environ["WEBRTC_IP_HANDLING_POLICY"] = "default"
 
 # ---------------- LOGGING CONFIG ----------------
 logging.basicConfig(
@@ -71,3 +73,4 @@ with col2:
     st.warning("Note: Initial loading may take a few seconds.")
 
 logging.info("Webcam Stream Initialized")
+
