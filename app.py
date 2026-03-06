@@ -116,3 +116,4 @@ with col2:
     """)
     
     st.warning("Note: The first frame may take a moment to process as the AI models load.")
+
